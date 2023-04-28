@@ -2,6 +2,15 @@ import React from 'react';
 import Die from './Die';
 
 export default function App() {
+  function allNewDice() {
+    const Array = [];
+    for (let i = 0; i < 10; i++) {
+      Array.push(Math.floor(Math.random() * 6));
+    }
+    return Array;
+  }
+  console.log(allNewDice());
+
   return (
     <div className="container">
       <main className="main">
