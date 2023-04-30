@@ -49,15 +49,16 @@ body {
   font-weight: 700;
   font-size: 20.5889px;
   cursor: pointer;
+  margin-top: 10.56px;
 }
 
 button {
   background-color: #5035ff;
   height: 35.8px;
-  width: 92.1px;
+  width: 120px;
   border-radius: 3.8px;
   border: none;
-  margin-top: 25.6px;
+  margin-top: 15.6px;
   color: white;
   font-weight: 700;
   font-size: 16.38px;
@@ -71,4 +72,24 @@ button:focus {
 
 button:active {
   box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+.instruction {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  font-size: 13.1072px;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  color: #4a4e74;
+  text-align: center;
+  width: 220.96px;
+}
+.title {
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+  font-size: 25.6px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  color: #2b283a;
 }
